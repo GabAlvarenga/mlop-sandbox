@@ -1,0 +1,30 @@
+# start of YAML file
+
+file: "teste file"
+version: 1.0
+price: 10000
+is_public: False
+date_creation: 2024-12-10
+content:
+ - "data science"
+ - "MlOps"
+ - "multiple tests"
+
+ content_list: ["data science","MlOps","multiple tests"]
+
+ info: 
+  - name: "gabriel"
+    age: "NULL"
+  - name: "gaalvarenga"
+    age: 1
+
+
+text: >
+TEXTO TEXTO TEXTO 
+TEXTO TEXTO TEXTO 
+TEXTO TEXTO TEXTO 
+
+text2: >
+TEXTO2 TEXTO2 TEXTO2 TEXTO2 
+TEXTO2 TEXTO2 TEXTO2 TEXTO2 
+TEXTO2 TEXTO2 TEXTO2 TEXTO2 
