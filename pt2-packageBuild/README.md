@@ -1,25 +1,18 @@
-# Example Package
+# Teste de Criação de Pacote Python com Upload Funcional no TestPyPI
 
-project
-└── project
-    ├── __init__.py
-    └── main.py
+## Resumo
 
-# Virtual Environments
+Este projeto serve como um teste para a criação e publicação de um pacote Python no TestPyPI. O objetivo é demonstrar o processo de empacotamento e distribuição de um código Python reutilizável.
 
-```
-python -m venv venv python=3.10
-.\pt2-packageBuild\venv\Scripts\activate
-pip install setuptools twine
-python setup.py sdist
-twine upload --repository-url https://test.pypi.org/legacy/ \
-  dist/hello_world_akjshya-0.0.1.tar.gz
+## Estrutura do Projeto
 
-pip install -i https://test.pypi.org/simple/ hello-world-akjshya==0.0.1
+* **project:** Diretório principal do projeto.
+* **project/__init__.py:** Arquivo inicializador do pacote, tornando o diretório `project` um pacote Python.
+* **project/main.py:** Arquivo principal que contém a lógica do seu código.
 
-# another example
-python setup.py sdist
-twine upload --repository-url https://upload.pypi.org/legacy/ \dist/generic_script_laksdlka-0.0.1.tar.gz
-```
+## Como Usar
 
-generic_script_laksdlka-0.0.1.tar.gz
+**Instalação:**
+
+```bash
+pip install -i https://test.pypi.org/simple/ generic-script-laksdlka==0.0.1
