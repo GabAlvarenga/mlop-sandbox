@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: generic_script_laksdlka
+Version: 0.0.1
+Summary: generic scrip
+Home-page: https://github.com/GabAlvarenga/mlop-sandbox
+Author: gaalvarenga
+Author-email: gaalvarenga@email.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

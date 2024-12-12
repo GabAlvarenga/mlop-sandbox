@@ -1,0 +1,7 @@
+setup.py
+generic_script_laksdlka.egg-info/PKG-INFO
+generic_script_laksdlka.egg-info/SOURCES.txt
+generic_script_laksdlka.egg-info/dependency_links.txt
+generic_script_laksdlka.egg-info/top_level.txt
+project/__init__.py
+project/main.py
