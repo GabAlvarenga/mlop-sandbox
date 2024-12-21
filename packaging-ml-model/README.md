@@ -25,6 +25,7 @@ cd yourproject
 pip install -r requirements.txt
 ```
 
+```bash
 REPO STRUCTURE: 
 packaging-ml-model/
 ├── MANIFEST.in
@@ -48,3 +49,4 @@ packaging-ml-model/
 ├── trained_models/
 │   └── __init__.py
 └── traning_pipeline.py
+```
